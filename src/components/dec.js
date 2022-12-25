@@ -23,7 +23,7 @@ const Index = () => {
         }}
       />
       {isPending ? (
-        <div>正在加载中...</div>
+        <div>加载中...</div>
       ) : (
         list.map((item, index) => <div key={index}>{item}</div>)
       )}
